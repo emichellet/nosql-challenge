@@ -56,7 +56,7 @@ The magazine editors have some requested modifications for the database before y
 4. The magazine is not interested in any establishments in Dover, so check how many documents contain the Dover Local Authority. Then, remove any establishments within the Dover Local Authority from the database, and check the number of documents to ensure they were deleted.
 5. Some of the number values are stored as strings, when they should be stored as numbers. Use 'update_many' to convert 'latitude' and 'longitude' to decimal numbers.
 
-###Part 3: Exploratory Analysis
+### Part 3: Exploratory Analysis
 Eat Safe, Love has specific questions they want you to answer, which will help them find the locations they wish to visit and avoid.
 
 Use 'NoSQL_analysis_starter.ipynb' for this section of the challenge.
